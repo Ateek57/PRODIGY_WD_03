@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tic-Tac-Toe</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-gray-100 flex justify-center items-center h-screen">
+
+<div id="app" class="text-center">
+  <h1 class="text-4xl font-bold mb-4">Tic-Tac-Toe</h1>
+  <div id="status" class="text-xl mb-4">Player X's turn</div>
+  <div id="board" class="grid grid-cols-3 gap-2">
+    <div class="cell" data-index="0"></div>
+    <div class="cell" data-index="1"></div>
+    <div class="cell" data-index="2"></div>
+    <div class="cell" data-index="3"></div>
+    <div class="cell" data-index="4"></div>
+    <div class="cell" data-index="5"></div>
+    <div class="cell" data-index="6"></div>
+    <div class="cell" data-index="7"></div>
+    <div class="cell" data-index="8"></div>
+  </div>
+  <button id="restartBtn" class="bg-blue-500 text-white px-4 py-2 mt-4">Restart Game</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
